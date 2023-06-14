@@ -1,0 +1,14 @@
+io.flutter.plugins.firebase.core.firebase_core-core-1.6.0-0 /Users/mostafa/.gradle/caches/transforms-3/131e04d5b9bc7e8f566b5d216409052d/transformed/core-1.6.0/res
+io.flutter.plugins.firebase.core.firebase_core-jetified-window-1.0.0-beta04-1 /Users/mostafa/.gradle/caches/transforms-3/22dcf051e075b70d58f74badc9784e20/transformed/jetified-window-1.0.0-beta04/res
+io.flutter.plugins.firebase.core.firebase_core-jetified-play-services-basement-18.1.0-2 /Users/mostafa/.gradle/caches/transforms-3/47317fcc2e6d5a51c29f0e647463f04c/transformed/jetified-play-services-basement-18.1.0/res
+io.flutter.plugins.firebase.core.firebase_core-jetified-annotation-experimental-1.1.0-3 /Users/mostafa/.gradle/caches/transforms-3/7c677b3a30bd34fadf9c2e6d2e114474/transformed/jetified-annotation-experimental-1.1.0/res
+io.flutter.plugins.firebase.core.firebase_core-jetified-firebase-common-20.3.2-4 /Users/mostafa/.gradle/caches/transforms-3/c5875f4b233e339f00b1fbeb2bbc4a3b/transformed/jetified-firebase-common-20.3.2/res
+io.flutter.plugins.firebase.core.firebase_core-jetified-window-java-1.0.0-beta04-5 /Users/mostafa/.gradle/caches/transforms-3/f6821b1368f19d7d535c735d01e76e6e/transformed/jetified-window-java-1.0.0-beta04/res
+io.flutter.plugins.firebase.core.firebase_core-main-6 /Users/mostafa/.pub-cache/hosted/pub.dev/firebase_core-2.13.1/android/src/main/res
+io.flutter.plugins.firebase.core.firebase_core-release-7 /Users/mostafa/.pub-cache/hosted/pub.dev/firebase_core-2.13.1/android/src/release/res
+io.flutter.plugins.firebase.core.firebase_core-pngs-8 /Users/mostafa/StudioProjects/air_retailer_task/build/firebase_core/generated/res/pngs/release
+io.flutter.plugins.firebase.core.firebase_core-resValues-9 /Users/mostafa/StudioProjects/air_retailer_task/build/firebase_core/generated/res/resValues/release
+io.flutter.plugins.firebase.core.firebase_core-rs-10 /Users/mostafa/StudioProjects/air_retailer_task/build/firebase_core/generated/res/rs/release
+io.flutter.plugins.firebase.core.firebase_core-mergeReleaseResources-11 /Users/mostafa/StudioProjects/air_retailer_task/build/firebase_core/intermediates/incremental/release/mergeReleaseResources/merged.dir
+io.flutter.plugins.firebase.core.firebase_core-mergeReleaseResources-12 /Users/mostafa/StudioProjects/air_retailer_task/build/firebase_core/intermediates/incremental/release/mergeReleaseResources/stripped.dir
+io.flutter.plugins.firebase.core.firebase_core-merged_res-13 /Users/mostafa/StudioProjects/air_retailer_task/build/firebase_core/intermediates/merged_res/release

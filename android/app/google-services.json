@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "710719046634",
+    "project_id": "air-retailer-project",
+    "storage_bucket": "air-retailer-project.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:710719046634:android:4187f655321b3117816893",
+        "android_client_info": {
+          "package_name": "com.example.air_retailer_task"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "710719046634-uql58p127mt0877n2l601q0q7pm6445n.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCZBTGB66ICWaZEN5J9OYd2SX7AbxbojBE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "710719046634-uql58p127mt0877n2l601q0q7pm6445n.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

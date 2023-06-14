@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="default_web_client_id" translatable="false">710719046634-uql58p127mt0877n2l601q0q7pm6445n.apps.googleusercontent.com</string>
+    <string name="gcm_defaultSenderId" translatable="false">710719046634</string>
+    <string name="google_api_key" translatable="false">AIzaSyCZBTGB66ICWaZEN5J9OYd2SX7AbxbojBE</string>
+    <string name="google_app_id" translatable="false">1:710719046634:android:4187f655321b3117816893</string>
+    <string name="google_crash_reporting_api_key" translatable="false">AIzaSyCZBTGB66ICWaZEN5J9OYd2SX7AbxbojBE</string>
+    <string name="google_storage_bucket" translatable="false">air-retailer-project.appspot.com</string>
+    <string name="project_id" translatable="false">air-retailer-project</string>
+</resources>
