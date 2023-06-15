@@ -95,7 +95,7 @@
                     }
                 },
                 {
-                    "source": "/Users/mostafa/StudioProjects/air_retailer_task/android/app/src/main/res/values/styles.xml",
+                    "source": "/Users/mostafa/StudioProjects/air_retailer_assignment/android/app/src/main/res/values/styles.xml",
                     "from": {
                         "startLines": "3,14",
                         "startColumns": "4,4",
@@ -114,7 +114,7 @@
                     }
                 },
                 {
-                    "source": "/Users/mostafa/StudioProjects/air_retailer_task/build/app/generated/res/google-services/debug/values/values.xml",
+                    "source": "/Users/mostafa/StudioProjects/air_retailer_assignment/build/app/generated/res/google-services/debug/values/values.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,7,8",
                         "startColumns": "4,4,4,4,4,4,4",

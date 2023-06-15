@@ -1,12 +1,12 @@
 import 'package:flutter/material.dart';
 
-import '../models/persons_model.dart';
+import '../models/users_model.dart';
 import '../services/persons_service.dart';
 import '../utilities/api_status.dart';
 
 class HomeProvider extends ChangeNotifier {
   HomeProvider() {
-    fetchPersons();
+    fetchUsers();
   }
   bool _isLoading = false;
 
@@ -17,47 +17,45 @@ class HomeProvider extends ChangeNotifier {
     notifyListeners();
   }
 
-  List<Person> _personList = [];
-  List<Person> _foundUser = [];
+  List<User> _userList = [];
+  List<User> _foundUser = [];
 
-  List<Person> get foundUser => _foundUser;
+  List<User> get foundUser => _foundUser;
 
-  set foundUser(List<Person> value) {
+  set foundUser(List<User> value) {
     _foundUser = value;
     notifyListeners();
   }
 
-  List<Person> get personList => _personList;
+  List<User> get userList => _userList;
 
-  set personList(List<Person> value) {
-    _personList = value;
+  set userList(List<User> value) {
+    _userList = value;
     notifyListeners();
   }
 
-  Future<void> fetchPersons() async {
+  Future<void> fetchUsers() async {
     isLoading = true;
-    final result = await PersonsService().getPersons();
+    final result = await UsersService().getUsers();
     if (result is Success) {
       isLoading = false;
-      final personsResponse = result.response as PersonsModel;
-      personsResponse.persons.sort((a, b) {
-        return a.email.toLowerCase().compareTo(b.email.toLowerCase());
+      final personsResponse = result.response as UsersModel;
+      personsResponse.response.users.sort((a, b) {
+        return a.name.toLowerCase().compareTo(b.name.toLowerCase());
       });
-      personList = personsResponse.persons;
-      foundUser = personList;
+      userList = personsResponse.response.users;
+      foundUser = userList;
     }
   }
 
   void runFilter(String enteredKeyword) {
-    List<Person> results = [];
+    List<User> results = [];
     if (enteredKeyword.isEmpty) {
-      results = personList;
+      results = userList;
     } else {
-      results = personList
-          .where((person) => person.email
-              .substring(0, person.email.indexOf('@'))
-              .toLowerCase()
-              .contains(enteredKeyword.toLowerCase()))
+      results = userList
+          .where((user) =>
+              user.name.toLowerCase().contains(enteredKeyword.toLowerCase()))
           .toList();
     }
 

@@ -15,7 +15,7 @@ class _HomeScreenState extends State<HomeScreen> {
 
   @override
   Widget build(BuildContext context) {
-    final personList = context.watch<HomeProvider>().foundUser;
+    final userList = context.watch<HomeProvider>().foundUser;
 
     return SafeArea(
       child: Scaffold(
@@ -39,7 +39,7 @@ class _HomeScreenState extends State<HomeScreen> {
                             childAspectRatio: 0.8,
                             crossAxisSpacing: 20,
                             mainAxisSpacing: 20),
-                    itemCount: personList.length,
+                    itemCount: userList.length,
                     itemBuilder: (BuildContext ctx, index) {
                       return Container(
                         decoration: BoxDecoration(
@@ -54,7 +54,7 @@ class _HomeScreenState extends State<HomeScreen> {
                                   bottom: 10, end: 10),
                               badgeStyle: badge.BadgeStyle(
                                   borderRadius: BorderRadius.circular(10),
-                                  badgeColor: personList[index].active == "true"
+                                  badgeColor: userList[index].isOnline
                                       ? Colors.green
                                       : Colors.grey),
                               child: Container(
@@ -64,7 +64,7 @@ class _HomeScreenState extends State<HomeScreen> {
                                   shape: BoxShape.circle,
                                   image: DecorationImage(
                                       image:
-                                          NetworkImage(personList[index].photo),
+                                          NetworkImage(userList[index].image),
                                       fit: BoxFit.cover),
                                 ),
                               ),
@@ -81,28 +81,24 @@ class _HomeScreenState extends State<HomeScreen> {
                                   child: Column(
                                     children: [
                                       Text(
-                                        personList[index].email.substring(
-                                            0,
-                                            personList[index]
-                                                .email
-                                                .indexOf('@')),
+                                        userList[index].name,
                                         style: const TextStyle(
                                           fontSize: 15,
                                         ),
                                       ),
-                                      Text(personList[index].email.substring(
-                                          personList[index].email.indexOf('@')))
+                                      Text(userList[index].email.substring(
+                                          userList[index].email.indexOf('@')))
                                     ],
                                   ),
                                 ),
                               ),
                             ),
                             Text(
-                              personList[index].mobile,
+                              userList[index].region + userList[index].mobile,
                               style: const TextStyle(color: Colors.grey),
                             ),
                             Text(
-                              personList[index].state,
+                              userList[index].zone,
                               style: const TextStyle(color: Colors.grey),
                             ),
                           ],

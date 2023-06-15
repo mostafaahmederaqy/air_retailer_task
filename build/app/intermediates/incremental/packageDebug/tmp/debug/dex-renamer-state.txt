@@ -1,4 +1,4 @@
-#Wed Jun 14 17:26:00 GST 2023
-base.0=/Users/mostafa/StudioProjects/air_retailer_task/build/app/intermediates/dex/debug/mergeDexDebug/classes.dex
+#Thu Jun 15 14:52:06 GST 2023
+base.0=/Users/mostafa/StudioProjects/air_retailer_assignment/build/app/intermediates/dex/debug/mergeDexDebug/classes.dex
 path.0=classes.dex
 renamed.0=classes.dex
